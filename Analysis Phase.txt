@@ -1,0 +1,23 @@
+Analysis Phase
+
+Based on common hospital management systems:
+
+Patient registration and medical record management
+
+Appointment scheduling for patients with doctors
+
+Bed / room / department management (wards, rooms)
+
+Pharmacy / drug inventory management
+
+Billing, invoicing, and payment processing
+
+Reporting and analytics for hospital administration
+
+Role-based access control and security
+
+Notifications and reminders for patient appointments
+
+Electronic health record (EHR) / order entry
+
+Capacity or hospital admin dashboards
