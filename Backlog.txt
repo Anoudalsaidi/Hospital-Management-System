@@ -1,0 +1,47 @@
+Scenario 1: Hospital Management System (HMS)
+Backlog Phase
+
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| ID | User Story                                                | Acceptance Criteria                                       |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 1  | As a patient, I want to register my personal and medical | Patient can enter name, DOB, contact info, medical       |
+|    | information so that my health record is stored in the    | history; record saved in the system.                     |
+|    | system.                                                   |                                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 2  | As a patient, I want to book an appointment with a       | System shows available doctors and time slots; patient  |
+|    | doctor so that I can get medical consultation.           | selects and confirms appointment.                        |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 3  | As a doctor, I want to view my daily appointment schedule| Doctor dashboard lists all appointments with patient     |
+|    | so that I know which patients to see and when.           | names & times.                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 4  | As a receptionist, I want to assign patients to beds/   | Receptionist can assign rooms/beds; system updates room |
+|    | rooms when they are admitted so that room occupancy is   | status and links patient record.                         |
+|    | managed.                                                  |                                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 5  | As a pharmacist, I want to manage the drug inventory so  | Inventory shows stock levels, alerts for low stock, and |
+|    | that I know when to reorder medicines.                  | allows placing orders.                                    |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 6  | As a billing clerk, I want to generate invoices for     | System aggregates costs for consultations, tests,       |
+|    | treatments and services so that patients can pay         | medications; generates invoice.                          |
+|    | appropriately.                                           |                                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 7  | As an insurance manager, I want to track insurance      | System shows insured vs patient-pay portions clearly.   |
+|    | coverage for bills so that I know the patient’s payment |                                                           |
+|    | responsibility.                                          |                                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 8  | As a hospital admin, I want to generate reports         | Reports can be generated for a period, exported, and    |
+|    | (patients, revenue, departments) so that I can make     | show key metrics.                                        |
+|    | data-driven decisions.                                   |                                                           |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 9  | As a patient, I want to receive reminders before        | Notifications sent via email/SMS 24 hours before        |
+|    | appointments so that I don’t miss them.                 | appointment.                                             |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 10 | As a doctor, I want to access a patient’s full medical  | System displays previous visits, diagnoses, lab results,|
+|    | record so I can make informed decisions.                | medications.                                             |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 11 | As a security officer, I want role-based access control | Different roles (doctor, nurse, admin) with role-specific|
+|    | so that only authorized users access sensitive data.    | permissions.                                             |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
+| 12 | As a medical coder, I want to use ICD-10 codes for      | System allows selecting ICD-10 codes and saves them in  |
+|    | diagnoses so that records are standardized.             | patient records.                                         |
++----+-----------------------------------------------------------+-----------------------------------------------------------+
