@@ -1,0 +1,130 @@
+============================================================
+Scenario: Banking System
+============================================================
+
+-----------------------------
+Analysis Phase
+-----------------------------
+Purpose: Identify key features for the banking system.
+
+- Account management (create, view, update accounts)
+- Money transfers (internal and external)
+- Loan application and management
+- Viewing bank statements and transaction history
+- Bill payments
+- ATM and card management
+- Notifications (email/SMS for transactions)
+- Customer support / service requests
+- Security & role-based access control
+- Reporting and analytics (admin dashboards)
+
+-----------------------------
+Backlog Phase
+-----------------------------
+User Stories and Acceptance Criteria
+
+1. As a customer, I want to create a new bank account so that I can start banking with the system.
+   Acceptance Criteria: Customer can enter personal information, choose account type, and system creates the account.
+
+2. As a customer, I want to log in to my account so that I can access my banking services securely.
+   Acceptance Criteria: System authenticates username/password; login fails for invalid credentials.
+
+3. As a customer, I want to view my account balance so that I know how much money I have.
+   Acceptance Criteria: Balance is displayed in real-time for selected account.
+
+4. As a customer, I want to transfer money to another account in the same bank so that I can pay friends or family.
+   Acceptance Criteria: System validates account number and available balance; transaction completes successfully.
+
+5. As a customer, I want to transfer money to an external bank account so that I can pay bills or merchants.
+   Acceptance Criteria: System validates IBAN/SWIFT code; transaction completes securely.
+
+6. As a customer, I want to apply for a loan so that I can receive financial support for purchases.
+   Acceptance Criteria: System captures loan type, amount, and documents; submission confirmation received.
+
+7. As a customer, I want to view my transaction history so that I can track all account activities.
+   Acceptance Criteria: System displays transactions by date, amount, type, and reference.
+
+8. As a customer, I want to pay bills online so that I can settle utilities and services easily.
+   Acceptance Criteria: System allows selecting biller, entering amount, and confirms payment.
+
+9. As a customer, I want to manage my debit/credit cards (block, activate, replace) so that I can maintain card security.
+   Acceptance Criteria: Customer can block/unblock cards; replacement requests generate confirmation.
+
+10. As a customer, I want to receive notifications for large or suspicious transactions so that I can monitor account security.
+    Acceptance Criteria: Email/SMS alerts sent for transactions exceeding a threshold.
+
+11. As a bank admin, I want to generate reports on account balances, loans, and transactions so that I can monitor bank operations.
+    Acceptance Criteria: System generates exportable reports with key metrics.
+
+12. As a customer, I want to set up recurring payments so that I can automate regular bills or transfers.
+    Acceptance Criteria: System allows scheduling recurring payments with configurable frequency and amount.
+
+13. As a customer, I want to update my personal information (address, phone number) so that my account details remain accurate.
+    Acceptance Criteria: System validates inputs and updates account records.
+
+14. As a customer, I want to open a fixed deposit account so that I can save money with interest.
+    Acceptance Criteria: System allows choosing deposit term and amount; confirms FD creation.
+
+15. As a bank admin, I want to manage customer roles and access levels so that sensitive operations are secure.
+    Acceptance Criteria: System restricts functions based on role (customer, teller, manager, auditor).
+
+-----------------------------
+Weighting and Estimation Phase
+-----------------------------
+User Stories with Story Points, Complexity, and Priority
+
+1. Create new account
+   Story Points: 5, Complexity: Medium, Priority: High
+
+2. Login
+   Story Points: 3, Complexity: Low, Priority: High
+
+3. View balance
+   Story Points: 2, Complexity: Low, Priority: High
+
+4. Internal transfer
+   Story Points: 5, Complexity: Medium, Priority: High
+
+5. External transfer
+   Story Points: 8, Complexity: High, Priority: High
+
+6. Apply for loan
+   Story Points: 8, Complexity: High, Priority: Medium
+
+7. View transaction history
+   Story Points: 5, Complexity: Medium, Priority: High
+
+8. Pay bills
+   Story Points: 5, Complexity: Medium, Priority: Medium
+
+9. Manage cards
+   Story Points: 5, Complexity: Medium, Priority: High
+
+10. Notifications for transactions
+    Story Points: 3, Complexity: Low, Priority: Medium
+
+11. Generate reports (admin)
+    Story Points: 8, Complexity: High, Priority: High
+
+12. Recurring payments
+    Story Points: 5, Complexity: Medium, Priority: Medium
+
+13. Update personal info
+    Story Points: 3, Complexity: Low, Priority: Medium
+
+14. Open fixed deposit
+    Story Points: 5, Complexity: Medium, Priority: Medium
+
+15. Manage customer roles (admin)
+    Story Points: 8, Complexity: High, Priority: High
+
+-----------------------------
+Simple ASCII Diagram: Backlog → Weighted → Sprint
+-----------------------------
+Product Backlog
+       |
+       v
+Weighted Backlog (Story Points & Priority)
+       |
+       v
+Sprint Planning → Selected Stories for Sprint
