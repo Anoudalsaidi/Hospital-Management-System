@@ -1,0 +1,71 @@
+Scenario 1: Hospital Management System (HMS)
+Weighting and Estimation Phase
+------------------------------------------------------------
+User Story Backlog with Story Points, Complexity, and Priority
+
+1. As a patient, I want to register my personal and medical information so that my health record is stored in the system.
+   Story Points: 3
+   Complexity: Low
+   Priority: High
+
+2. As a patient, I want to book an appointment with a doctor so that I can get medical consultation.
+   Story Points: 5
+   Complexity: Medium
+   Priority: High
+
+3. As a doctor, I want to view my daily appointment schedule so that I know which patients to see and when.
+   Story Points: 3
+   Complexity: Low
+   Priority: High
+
+4. As a receptionist, I want to assign patients to beds/rooms when they are admitted so that room occupancy is managed.
+   Story Points: 5
+   Complexity: Medium
+   Priority: Medium
+
+5. As a pharmacist, I want to manage the drug inventory so that I know when to reorder medicines.
+   Story Points: 5
+   Complexity: Medium
+   Priority: Medium
+
+6. As a billing clerk, I want to generate invoices for treatments and services so that patients can pay appropriately.
+   Story Points: 5
+   Complexity: Medium
+   Priority: High
+
+7. As an insurance manager, I want to track insurance coverage for bills so that I know the patient’s payment responsibility.
+   Story Points: 3
+   Complexity: Medium
+   Priority: Medium
+
+8. As a hospital admin, I want to generate reports (patients, revenue, departments) so that I can make data-driven decisions.
+   Story Points: 8
+   Complexity: High
+   Priority: High
+
+9. As a patient, I want to receive reminders before appointments so that I don’t miss them.
+   Story Points: 3
+   Complexity: Low
+   Priority: Medium
+
+10. As a doctor, I want to access a patient’s full medical record so I can make informed decisions.
+    Story Points: 8
+    Complexity: High
+    Priority: High
+
+11. As a security officer, I want role-based access control so that only authorized users access sensitive data.
+    Story Points: 5
+    Complexity: Medium
+    Priority: High
+
+12. As a medical coder, I want to use ICD-10 codes for diagnoses so that records are standardized.
+    Story Points: 3
+    Complexity: Low
+    Priority: Medium
+
+------------------------------------------------------------
+Notes:
+- Story Points: Estimation of effort required to complete the story (e.g., 1-13 Fibonacci scale)
+- Complexity: Technical difficulty of implementing the story (Low, Medium, High)
+- Priority: Business or user importance (High, Medium, Low)
+- These estimations can be refined using Planning Poker, T-Shirt sizing, or other Agile estimation techniques.
